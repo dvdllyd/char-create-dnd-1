@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+/* * { background-color: black; } */
+
+h1 {
+  background: transparent;
+  color: white;
+}
+
+h4 {
+  background: transparent;
+  color: white
+}
+
