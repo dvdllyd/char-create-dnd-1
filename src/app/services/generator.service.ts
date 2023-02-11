@@ -17,7 +17,7 @@ export class GeneratorService {
   race = new Subject
 
   colors: string[]= [
-    'Black', 'Blue', 'Brown', 'Green',
+    'Black', 'Blue', 'Bone', 'Brown', 'Green',
     'Orange', 'Purple', 'Red', 'White', 'Yellow',
     'Gold', 'Silver']
   color = new Subject
@@ -56,8 +56,8 @@ export class GeneratorService {
   armor = new Subject
 
   gps: string[]= [
-    '5GP', '6GP', '7GP', '8GP', '9GP', '10GP', '11GP', '12GP',
-    '13GP', '14GP', '15GP', '16GP', '17GP', '18GP', '19GP', '20GP']
+    '50GP', '60GP', '70GP', '80GP', '90GP', '100GP', '110GP', '120GP',
+    '130GP', '140GP', '150GP', '160GP', '170GP', '180GP', '190GP', '200GP']
   gp = new Subject
 
   weapons: string[]= [
@@ -81,32 +81,32 @@ export class GeneratorService {
   shieldmat = new Subject
 
   ranged: string[]= [
-    'No Ranged', 'Sling (1D, Short Range)', 'Bow (2D, 20 Arrows)',]
+    'No Ranged', 'Sling (1D Lower, Short Range)', 'Shortbow (1D, 20 Arrows)', 'Longbow (2D 20 Arrows)' ]
   range = new Subject
 
   clerics: string[]= [
     'Animate Dead', 'Blindness', 'Command', 'Create Sustenance', 'Cure Disease', 'Cure Poison', 'Cure Wounds',
     'Darkness', 'Dispel Magic', 'Flame Strike', 'Light', 'Prayer', 'Regeneration', 'Remove Curse', 'Remove Fear',
-    'Restoration', 'Revive', 'Sanctuary', 'Tongues', 'Resurrect', 'Essential Salts', 'Remove Mutation'  ]
+    'Restoration', 'Revive', 'Sanctuary', 'Tongues', 'Detect Magic' ]
   cleric = new Subject
 
   druids: string[]= [
     'Animal Friendship', 'Animal Summoning', 'Barkskin', 'Call Lightning', 'Commune w/ Nature', 'Control Winds',
     'Cure Wounds', 'Darkness', 'Entangle', 'Feather Fall', 'Pass w/o Trace', 'Plant Door', 'Plant Growth',
     'Speak w/ Animals', 'Stone Shape', 'Transmute Rock to Mud', 'Tree Shape', 'Wall of Thorns', 'Warp Wood',
-    'Water Breathing', 'Cure Poison', 'Delay Poison', 'Detect Poison', 'Reincarnate', 'Dispel Magic'  ]
+    'Water Breathing', 'Cure Poison', 'Delay Poison', 'Detect Poison', 'Reincarnate', 'Dispel Magic', 'Detect Magic'  ]
   druid = new Subject
 
   wizards: string[]= [
     'Charm', 'Darkness', 'Detect Magic', 'Dispel Magic', 'Enlarge', 'Feather Fall', 'Fireball',
     'Floating Disk', 'Identify', 'Knock', 'Light', 'Lightning Bolt', 'Mage Armor', 'Sleep', 'Spider Climb',
-    'Unseen Servant', 'Wall of Force', 'Crushing Fist of Spite', 'Prismatic Spray', 'Hydra']
+    'Unseen Servant', 'Wall of Force', 'Crushing Fist of Spite', 'Prismatic Spray', 'Hydra' ]
   wizard = new Subject
 
   psionics: string[]= [
     'Disorient', 'Levitation', 'Mental Blast', 'Mind Control', 'Precognition', 'Detect Minds',
     'Psychometry', 'Pyrokinesis', 'Remote Sensing', 'Telekinesis', 'Telepathy', 'Detect Psionics',
-    'Negate Psionics']
+    'Negate Psionics' ]
   psionic = new Subject
 
   gandcs: string[]= [
